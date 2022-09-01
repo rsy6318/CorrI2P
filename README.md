@@ -1,11 +1,12 @@
-## CorrI2P: Deep Image-to-Point Cloud Registration via Dense Correspondence
+## CorrI2P: Deep Image-to-Point Cloud Registration via Dense Correspondence  
 
+![Correspondence](pic/correspondence_ours.png)  
+  
 ### Data  
 Here we would provide KITTI prepared.
 The dataset is about 300 GB so it needs some time to upload them.
-
-![Correspondence](pic/correspondence_ours.png)
-
+  
+  
 ### Usage
 Install required lib as SO-Net or [DeepI2P](https://github.com/lijx10/DeepI2P/tree/main/models/index_max_ext).
 #### Train
