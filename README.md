@@ -2,7 +2,7 @@
 
 ### Data  
 Here we would provide KITTI prepared.
-The dataset is about 300 GB so we are trying to upload them.
+The dataset is about 300 GB so it needs some time to upload them.
 
 ### Usage
 Install required lib as SO-Net or [DeepI2P](https://github.com/lijx10/DeepI2P/tree/main/models/index_max_ext).
