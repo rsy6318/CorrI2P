@@ -1,5 +1,4 @@
 ## CorrI2P: Deep Image-to-Point Cloud Registration via Dense Correspondence  
-
 ![Correspondence](pic/correspondence_ours.png)  
   
 ### Data  
