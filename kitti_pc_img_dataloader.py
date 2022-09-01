@@ -104,8 +104,8 @@ class kitti_pc_img_dataset(data.Dataset):
         self.num_kpt=num_kpt
         self.farthest_sampler = FarthestSampler(dim=3)
 
-        self.node_a_num=128
-        self.node_b_num=128
+        self.node_a_num=256
+        self.node_b_num=256
         self.is_front=is_front
         print('load data complete')
 
