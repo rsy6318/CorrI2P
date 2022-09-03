@@ -3,8 +3,20 @@
   
 ### Data  
 Here we would provide KITTI prepared.  
-You can download it [here](https://tjueducn-my.sharepoint.com/:f:/g/personal/rsy6318_tju_edu_cn/Ejuy4n_OeuFPkayDWnOwRmgBRnR2z_pltD2uv0F6LHYN_Q?e=7506Ug).
-  
+You can download it [here](https://tjueducn-my.sharepoint.com/:f:/g/personal/rsy6318_tju_edu_cn/Ejuy4n_OeuFPkayDWnOwRmgBRnR2z_pltD2uv0F6LHYN_Q?e=7506Ug).  
+Unzip these files, and the directory is as follows:  
+```
+kitti
+-calib
+--00
+--01
+...
+-sequences
+--00
+--01
+...
+```
+
   
 ### Usage
 Install required lib as SO-Net or [DeepI2P](https://github.com/lijx10/DeepI2P/tree/main/models/index_max_ext).
