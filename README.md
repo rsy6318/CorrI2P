@@ -1,5 +1,5 @@
 ## CorrI2P: Deep Image-to-Point Cloud Registration via Dense Correspondence  
-[arxiv](https://arxiv.org/pdf/2207.05483.pdf)  
+[arxiv](https://arxiv.org/pdf/2207.05483.pdf)  [TCSVT](https://ieeexplore.ieee.org/document/9900350)
 Accepted by IEEE TCSVT  
 ![Correspondence](pic/correspondence_ours.png)  
 ### Data  
@@ -36,12 +36,15 @@ Note: There would be lots of intermediate results, please leave enough storage s
   
 ### Citation
 ```bibtex
-@article{ren2022corri2p,
-  title={CorrI2P: Deep Image-to-Point Cloud Registration via Dense Correspondence},
+@ARTICLE{CORRI2P,
   author={Ren, Siyu and Zeng, Yiming and Hou, Junhui and Chen, Xiaodong},
-  journal={arXiv preprint arXiv:2207.05483},
-  year={2022}
-}
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={CorrI2P: Deep Image-to-Point Cloud Registration via Dense Correspondence}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TCSVT.2022.3208859}}
 ```
 
 ### Acknowledgement
