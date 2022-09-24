@@ -1,5 +1,5 @@
 ## CorrI2P: Deep Image-to-Point Cloud Registration via Dense Correspondence  
-[arxiv](https://arxiv.org/pdf/2207.05483.pdf)  [TCSVT](https://ieeexplore.ieee.org/document/9900350)
+[arxiv](https://arxiv.org/pdf/2207.05483.pdf)  [TCSVT](https://ieeexplore.ieee.org/document/9900350)  
 Accepted by IEEE TCSVT  
 ![Correspondence](pic/correspondence_ours.png)  
 ### Data  
