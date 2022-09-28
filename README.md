@@ -19,7 +19,7 @@ kitti
 ...
 ```
 #### NuScenes  
-We would provide the script for preparing NuScenes dataset these days.  
+We would provide the script for preparing NuScenes dataset in **nuScenes_script** folder (reffer to [DeepI2P](https://github.com/lijx10/DeepI2P)). They can be used to generate nuscenes dataset. 
 ### Usage
 Install required lib as SO-Net or [DeepI2P](https://github.com/lijx10/DeepI2P/tree/main/models/index_max_ext).
 #### Train
