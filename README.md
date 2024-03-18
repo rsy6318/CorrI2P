@@ -5,7 +5,7 @@ Accepted by IEEE TCSVT
 ### Data  
 #### KITTI
 Here we provide KITTI prepared.  
-You can download it [here](https://tjueducn-my.sharepoint.com/:f:/g/personal/rsy6318_tju_edu_cn/Ejuy4n_OeuFPkayDWnOwRmgBRnR2z_pltD2uv0F6LHYN_Q?e=7506Ug).  
+You can download it [here](https://portland-my.sharepoint.com/:u:/g/personal/siyuren2-c_my_cityu_edu_hk/EY_3Cwr3PhZHiNj_ijDPIp0BZx23H9T1J-wrmd6gqbgykw?e=4quHFS).  
 Unzip these files, and the directory is as follows:  
 ```
 kitti
@@ -38,14 +38,15 @@ Note: There would be lots of intermediate results, please leave enough storage s
   
 ### Citation
 ```bibtex
-@ARTICLE{CORRI2P,
+@ARTICLE{9900350,
   author={Ren, Siyu and Zeng, Yiming and Hou, Junhui and Chen, Xiaodong},
   journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
   title={CorrI2P: Deep Image-to-Point Cloud Registration via Dense Correspondence}, 
-  year={2022},
-  volume={},
-  number={},
-  pages={1-1},
+  year={2023},
+  volume={33},
+  number={3},
+  pages={1198-1208},
+  keywords={Point cloud compression;Feature extraction;Cameras;Three-dimensional displays;Detectors;Feeds;Visualization;Point cloud;registration;cross-modality;correspondence;deep learning},
   doi={10.1109/TCSVT.2022.3208859}}
 ```
 
