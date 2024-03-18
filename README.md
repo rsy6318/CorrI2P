@@ -38,16 +38,16 @@ Note: There would be lots of intermediate results, please leave enough storage s
   
 ### Citation
 ```bibtex
-@ARTICLE{9900350,
+@article{ren2022corri2p,
+  title={Corri2p: Deep image-to-point cloud registration via dense correspondence},
   author={Ren, Siyu and Zeng, Yiming and Hou, Junhui and Chen, Xiaodong},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
-  title={CorrI2P: Deep Image-to-Point Cloud Registration via Dense Correspondence}, 
-  year={2023},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
   volume={33},
   number={3},
-  pages={1198-1208},
-  keywords={Point cloud compression;Feature extraction;Cameras;Three-dimensional displays;Detectors;Feeds;Visualization;Point cloud;registration;cross-modality;correspondence;deep learning},
-  doi={10.1109/TCSVT.2022.3208859}}
+  pages={1198--1208},
+  year={2022},
+  publisher={IEEE}
+}
 ```
 
 ### Acknowledgement

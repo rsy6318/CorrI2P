@@ -3,9 +3,9 @@ os.environ["CUDA_VISIBLE_DEVICES"]="3"
 import torch
 import torch.nn as nn
 import argparse
-from network3 import DenseI2P
+from network import CorrI2P
 from nuscenes_pc_img_dataloader import nuScenesLoader
-import loss2
+import loss
 import numpy as np
 import logging
 import math
@@ -184,7 +184,7 @@ if __name__=='__main__':
     
     opt=options.Options()
 
-    model=DenseI2P(opt)
+    model=CorrI2P(opt)
     model = nn.DataParallel(model)
     model=model.cuda()
 
@@ -291,9 +291,9 @@ if __name__=='__main__':
             
             #loss_desc,dists=loss2.desc_loss(img_features,pc_features,mask,num_kpt=args.num_kpt)
 
-            loss_desc,dists=loss2.desc_loss(img_features_flatten_inline,pc_features_inline,correspondence_mask,pos_margin=args.pos_margin,neg_margin=args.neg_margin)
+            loss_desc,dists=loss.desc_loss(img_features_flatten_inline,pc_features_inline,correspondence_mask,pos_margin=args.pos_margin,neg_margin=args.neg_margin)
             #loss_det=loss2.det_loss(img_score_flatten_inline.squeeze(),img_score_flatten_outline.squeeze(),pc_score_inline,pc_score_outline.squeeze())
-            loss_det=loss2.det_loss2(img_score_flatten_inline.squeeze(),img_score_flatten_outline.squeeze(),pc_score_inline.squeeze(),pc_score_outline.squeeze(),dists,correspondence_mask)
+            loss_det=loss.det_loss2(img_score_flatten_inline.squeeze(),img_score_flatten_outline.squeeze(),pc_score_inline.squeeze(),pc_score_outline.squeeze(),dists,correspondence_mask)
             loss=loss_desc+loss_det*0.5
             #loss=loss_desc
 
