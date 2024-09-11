@@ -56,5 +56,5 @@ We thank the authors of [DeepI2P](https://github.com/lijx10/DeepI2P) for their p
 If you want to use our code, please cite our work.
 
 ### News !!!   
-Our new work [**Self-supervised Learning of LiDAR 3D Point Clouds via 2D-3D Neural Calibration**](https://arxiv.org/abs/2401.12452) achieves a higher accuracy, and we refer the author to follow! [[Code](https://github.com/Eaphan/NCLR)]
+Our new work [**Self-supervised Learning of LiDAR 3D Point Clouds via 2D-3D Neural Calibration**](https://arxiv.org/abs/2401.12452) achieves a higher accuracy, and we refer the readers to follow! [[Code](https://github.com/Eaphan/NCLR)]
 
