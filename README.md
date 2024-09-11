@@ -1,6 +1,9 @@
-## CorrI2P: Deep Image-to-Point Cloud Registration via Dense Correspondence  
-[arxiv](https://arxiv.org/pdf/2207.05483.pdf)  [TCSVT](https://ieeexplore.ieee.org/document/9900350)  
+## CorrI2P: Deep Image-to-Point Cloud Registration via Dense Correspondence [[arxiv](https://arxiv.org/pdf/2207.05483.pdf),  [TCSVT](https://ieeexplore.ieee.org/document/9900350)]   
 Accepted by IEEE TCSVT  
+
+### News !!!   
+Our new work [**Self-supervised Learning of LiDAR 3D Point Clouds via 2D-3D Neural Calibration**](https://arxiv.org/abs/2401.12452) achieves a higher accuracy, and we refer the readers to follow! [[Code](https://github.com/Eaphan/NCLR)]
+
 ![Correspondence](pic/correspondence_ours.png)  
 ### Data  
 #### KITTI
@@ -55,6 +58,5 @@ We thank the authors of [DeepI2P](https://github.com/lijx10/DeepI2P) for their p
 
 If you want to use our code, please cite our work.
 
-### News !!!   
-Our new work [**Self-supervised Learning of LiDAR 3D Point Clouds via 2D-3D Neural Calibration**](https://arxiv.org/abs/2401.12452) achieves a higher accuracy, and we refer the readers to follow! [[Code](https://github.com/Eaphan/NCLR)]
+
 
