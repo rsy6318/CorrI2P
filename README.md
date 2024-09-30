@@ -26,7 +26,8 @@ Here we provide nuScenes prepared.
 You can download it [here](https://tjueducn-my.sharepoint.com/:u:/g/personal/rsy6318_tju_edu_cn/EYRUCt8WKCRGpT4flA6k_S4BXCgTi4M6_oJTfRMuiaZiEg?e=NOi0YU).  
 We also provide the script for preparing NuScenes dataset in **nuScenes_script** folder (reffer to [DeepI2P](https://github.com/lijx10/DeepI2P)). They can be used to generate nuscenes dataset. 
 ### Usage
-Install required lib as SO-Net or [DeepI2P](https://github.com/lijx10/DeepI2P/tree/main/models/index_max_ext).
+Install required lib as SO-Net or [DeepI2P](https://github.com/lijx10/DeepI2P/tree/main/models/index_max_ext).  
+[Indexmax](https://github.com/lijx10/SO-Net/tree/master/models/index_max_ext)
 #### Train
 ```sh
 python train.py
