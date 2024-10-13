@@ -23,7 +23,7 @@ kitti
 ```
 #### NuScenes  
 Here we provide nuScenes prepared.  
-You can download it [here](https://tjueducn-my.sharepoint.com/:u:/g/personal/rsy6318_tju_edu_cn/EYRUCt8WKCRGpT4flA6k_S4BXCgTi4M6_oJTfRMuiaZiEg?e=NOi0YU).  
+You can download it [here]([https://tjueducn-my.sharepoint.com/:u:/g/personal/rsy6318_tju_edu_cn/EYRUCt8WKCRGpT4flA6k_S4BXCgTi4M6_oJTfRMuiaZiEg?e=NOi0YU](https://portland-my.sharepoint.com/:f:/g/personal/siyuren2-c_my_cityu_edu_hk/EhCjMm7W95pEvd0W0rMZduUBvwsUfzIYT9r3opBULD8O4g?e=0XIfhq)).  
 We also provide the script for preparing NuScenes dataset in **nuScenes_script** folder (reffer to [DeepI2P](https://github.com/lijx10/DeepI2P)). They can be used to generate nuscenes dataset. 
 ### Usage
 Install required lib as SO-Net or [DeepI2P](https://github.com/lijx10/DeepI2P/tree/main/models/index_max_ext).  
