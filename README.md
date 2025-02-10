@@ -2,7 +2,8 @@
 Accepted by IEEE TCSVT  
 
 ### News !!!   
-Our new work [**Self-supervised Learning of LiDAR 3D Point Clouds via 2D-3D Neural Calibration**](https://arxiv.org/abs/2401.12452) achieves a higher accuracy, and we refer the readers to follow! [[Code](https://github.com/Eaphan/NCLR)]
+* The download link of preprocessed datasets is temporarily unavailable, and we are in the process of finding a new cloud storage solution.    
+* Our new work [**Self-supervised Learning of LiDAR 3D Point Clouds via 2D-3D Neural Calibration**](https://arxiv.org/abs/2401.12452) achieves a higher accuracy, and we refer the readers to follow! [[Code](https://github.com/Eaphan/NCLR)]
 
 ![Correspondence](pic/correspondence_ours.png)  
 ### Data  
